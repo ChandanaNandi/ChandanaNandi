@@ -1,16 +1,39 @@
-## Hi there 👋
+### Hi, I'm Chandana
 
-<!--
-**ChandanaNandi/ChandanaNandi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build production AI systems for healthcare at Solix Technologies: multi-agent
+orchestration, RAG pipelines, LLM fine-tuning, and the backend that holds it
+together. That work lives on company infrastructure, so it is not here.
 
-Here are some ideas to get you started:
+What is here is the work I do to think through hard problems on my own time,
+mostly around safe AI for network operations. These projects share a thesis I
+care about: an LLM should propose, a formal tool should verify, a human should
+approve, and the system should prove that what it claimed would happen actually
+happened. AI where it earns its keep, determinism where determinism matters.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+A few I would point you to first:
+
+- **[sonic-intent-agent](https://github.com/ChandanaNandi/sonic-intent-agent)** —
+  natural language to verified network config on a SONiC switch, with a local
+  LLM, Batfish pre-apply verification, and structural post-apply checks. Built
+  in seven phases, each gated by a working demo.
+
+- **[neuronoc-network-ops-assistant](https://github.com/ChandanaNandi/neuronoc-network-ops-assistant)** —
+  a safety-first NetOps console: anomaly detection, a LangGraph analysis
+  workflow, LLM root-cause explanation, and admin-approved remediation that is
+  plan-only by construction. No execution path exists in the code, and a CI scan
+  enforces it.
+
+- **[evpn-vxlan-frr-lab](https://github.com/ChandanaNandi/evpn-vxlan-frr-lab)** —
+  a containerized leaf-spine fabric: eBGP underlay, BGP-EVPN type-3 control
+  plane, VXLAN data plane, with a Python validator on FRR and Docker.
+
+I came to AI from Aircraft Maintenance Engineering, a field where systems fail
+loudly and safety is not optional, then an MS in Data Science. That background is
+why my projects are honest about their limits and built to be verified rather
+than trusted.
+
+Open to conversations about healthcare AI, agentic systems, and ML infrastructure.
+
+- MS Data Science, University of the Pacific
+- 📍 Dallas–Fort Worth, TX
+- [LinkedIn](https://www.linkedin.com/in/chandana-nandi-3339bb1a5/)
