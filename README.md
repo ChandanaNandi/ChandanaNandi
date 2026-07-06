@@ -12,6 +12,16 @@ happened. AI where it earns its keep, determinism where determinism matters.
 
 A few I would point you to first:
 
+- **[closcall](https://github.com/ChandanaNandi/closcall)** —
+  evidence-grounded incident command for a containerized SR Linux datacenter
+  fabric, and the fullest expression of the thesis above. A 312-incident fault
+  corpus collected under live traffic shows classical detection is structurally
+  blind to gray faults (AUROC 0.500) while temporal learned models recover them
+  (~0.91) — every published number generated from one content-hashed run.
+  Remediation is human-approved through a browser console whose approve button
+  and executor share a single digest-bound gate: the UI cannot claim more safety
+  than the executor enforces, and a test proves there is no side door.
+
 - **[sonic-intent-agent](https://github.com/ChandanaNandi/sonic-intent-agent)** —
   natural language to verified network config on a SONiC switch, with a local
   LLM, Batfish pre-apply verification, and structural post-apply checks. Built
