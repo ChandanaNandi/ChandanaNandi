@@ -1,5 +1,7 @@
 ### Hi, I'm Chandana
 
+🌐 **Portfolio → [chandananandi.github.io](https://chandananandi.github.io)** — the full story, with live results, architecture diagrams, and honest limits.
+
 I build production AI systems for healthcare at Solix Technologies: multi-agent
 orchestration, RAG pipelines, LLM fine-tuning, and the backend that holds it
 together. That work lives on company infrastructure, so it is not here.
